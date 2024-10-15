@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Get in touch with WebPulse for professional website development, SEO, and digital marketing services.">
+  <title>WebPulse</title>
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/css/bootstrap_custom.css">
+  <link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Header -->
+  <header class="bg-light py-3">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">WebPulse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-primary text-white py-5 text-center">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p class="lead">We'd love to hear from you. Get in touch with us using the form below!</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-5 flex-grow-1">
+    <div class="container">
+      <h2 class="text-center mb-5">Send Us a Message</h2>
+      <form action="thanks_form.php" method="POST">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control border border-primary" id="name" name="name"
+                placeholder="Enter your name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" class="form-control border border-primary" id="email" name="email"
+                placeholder="Enter your email" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group mb-3">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control border border-primary" id="subject" name="subject"
+            placeholder="Enter the subject" required>
+        </div>
+        <div class="form-group mb-4">
+          <label for="message">Message</label>
+          <textarea class="form-control border border-primary" id="message" name="message" rows="5"
+            placeholder="Write your message here..." required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary text-white">Send Message</button>
+        </div>
+      </form>
+      <h2 class="text-center mt-5">Our Address</h2>
+      <div class="d-flex flex-column flex-lg-row align-items-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1542.549278523664!2d79.67325717227192!3d23.140211565072505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981c93bdde8b943%3A0xa76c56953787f539!2sEcom%20Express%20Private%20Limited!5e0!3m2!1sru!2sru!4v1726493147983!5m2!1sru!2sru"
+          height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          class="mt-2 col-md-12 rounded-3 map"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 WebPulse. All rights reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li class="list-inline-item"><a href="terms-conditions.html">Terms and Conditions</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.member_img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.fs-7 {
+  font-size: 8rem;
+}
+
+.fs-8 {
+  font-size: 4rem;
+}
+
+@media (max-width: 770px) {
+  .map {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .map {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .map {
+    height: 15rem;
+    width: 15rem;
+  }
+}
